@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Defallah - Frontend Web Developer Portfolio</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description"
+        content="Professional portfolio of Ahmed Defallah, a frontend web developer passionate about creating visually stunning and highly functional web applications.">
+    <meta name="keywords" content="Mohamed Elkashef, Web Developer, Frontend Developer, HTML, CSS, JavaScript, Portfolio">
+    <meta name="author" content="Mohamed Elkashef">
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- HEADER & NAVBAR -->
+    <header class="header">
+        <div class="container navbar-container">
+            <a href="#home" class="logo" id="logo">Ahmed Defallah</a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="home-section">
+            <div class="container home-container">
+                <div class="home-content">
+                    <p class="home-greeting">HI There, I'm</p>
+                    <h1 class="home-name">Ahmed Defallah</h1>
+                    <h2 class="home-title">Frontend web developer</h2>
+                    
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ahmed.deifallah.158966" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/abo_defallah?igsh=MWxtcmNlNDAwdWN4cA==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://ahmaddef088-sys.github.io/AHMED/" target="_blank" rel="noopener" aria-label="Github"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                    
+                    <a href="#about" class="btn btn-about">
+                        <span>About Me</span>
+                        <i class="fas fa-arrow-down btn-icon"></i>
+                    </a>
+                </div>
+                
+
+                <div class="home-image-wrapper">
+                    <div class="avatar-backdrop"></div>
+                    <div class="avatar-container">
+                        <!-- User will place avatar.png here manually. Showing a styled placeholder shape. -->
+                        <img src="./phtoto/ahmed.jpg" alt="Mohamed Elkashef" class="avatar-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="avatar-placeholder" style="display: none;">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Add avatar.png</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>I'm <span class="text-highlight">Ahmed Defallah</span>, a Web developer</h3>
+                        <p>I'm a front-end web developer with a strong passion for creating visually appealing and user-friendly web applications. I am very passionate about improving my coding skills & developing applications & websites.</p>
+                        <p>I have also gained a solid foundation in HTML, CSS, and JavaScript. I am always eager to learn new technologies and techniques to enhance my skillset.</p>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Age:</span>
+                            <span class="detail-value">19</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value"> ahmaddef088@gmail.com</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Place:</span>
+                            <span class="detail-value">6 October - Egypt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SKILLS & ABILITIES CONTAINER (within the About section context, dark background) -->
+            <div class="skills-wrapper">
+                <div class="container">
+                    <h3 class="skills-title"><i class="fas fa-laptop-code"></i> Skills & Abilities</h3>
+                    <div class="skills-grid">
+                        <!-- HTML 5 -->
+                        <div class="skill-card">
+                            <div class="skill-icon html-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4 class="skill-name">HTML 5</h4>
+                        </div>
+                        <!-- CSS 3 -->
+                        <div class="skill-card">
+                            <div class="skill-icon css-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4 class="skill-name">CSS 3</h4>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="skill-card">
+                            <div class="skill-icon js-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4 class="skill-name">JavaScript</h4>
+                        </div>
+                        <!-- Github -->
+                        <div class="skill-card">
+                            <div class="skill-icon github-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <h4 class="skill-name">Github</h4>
+                        </div>
+                        <!-- React.js -->
+                        <div class="skill-card">
+                            <div class="skill-icon react-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h4 class="skill-name">React.js</h4>
+                        </div>
+                        <!-- UI/UX Principles -->
+                        <div class="skill-card">
+                            <div class="skill-icon uiux-icon">
+                                <i class="fas fa-bezier-curve"></i>
+                            </div>
+                            <h4 class="skill-name">UI/UX Principles</h4>
+                        </div>
+                        <!-- Next.js -->
+                        <div class="skill-card">
+                            <div class="skill-icon nextjs-icon">
+                                <svg viewBox="0 0 128 128" width="44" height="44" fill="currentColor">
+                                    <path d="M64 0C28.7 0 0 28.7 0 64s28.7 64 64 64c11.2 0 21.7-2.9 30.8-7.9L48.4 55.3v36.6h-9.1V36.1h9.1l43.8 56.4c7.6-8.7 12.2-20.1 12.2-32.5 0-35.3-28.7-64-64-64zm17.9 36.1h9.1v27.2l-9.1-11.7V36.1z"/>
+                                </svg>
+                            </div>
+                            <h4 class="skill-name">Next.js</h4>
+                        </div>
+                        <!-- TypeScript -->
+                        <div class="skill-card">
+                            <div class="skill-icon typescript-icon">
+                                <svg viewBox="0 0 128 128" width="44" height="44" fill="currentColor">
+                                    <path d="M1.5 0h125c.8 0 1.5.7 1.5 1.5v125c0 .8-.7 1.5-1.5 1.5H1.5c-.8 0-1.5-.7-1.5-1.5V1.5C0 .7.7 0 1.5 0zm68.3 87.8c0 7.8 2.2 13.9 6.6 18.2 4.4 4.3 10.7 6.5 18.9 6.5 7.1 0 13.1-1.6 17.9-4.8 4.8-3.2 7.7-7.7 8.7-13.6l-14.7-2.7c-.6 3.1-1.9 5.4-3.9 7-2 1.6-4.7 2.4-8.1 2.4-3.7 0-6.6-.9-8.6-2.8-2-1.9-3-4.6-3-8.2 0-3.3.9-6 2.8-8.1 1.9-2.1 5.3-4.4 10.3-6.9 7.7-3.8 13.3-7.7 16.8-11.7 3.5-4 5.2-9 5.2-15 0-6.8-2.2-12.2-6.6-16.1s-10.3-5.9-17.7-5.9c-7 0-12.8 1.7-17.3 5.2s-7.1 8.5-7.8 15.1l14.7 2c.5-3.2 1.8-5.6 3.8-7.1 2-1.5 4.6-2.3 7.7-2.3 3.3 0 5.9.8 7.8 2.3 1.9 1.5 2.8 3.7 2.8 6.5 0 2.8-.9 5.2-2.8 7.1-1.9 1.9-5.3 4.1-10.2 6.6-7.8 3.9-13.5 7.9-17 11.9-3.6 4-5.4 9.1-5.4 15.3zm-39.7-48.4h42.5V26.6H5.4v12.8h17.9v71.6h16.8V39.4z"/>
+                                </svg>
+                            </div>
+                            <h4 class="skill-name">TypeScript</h4>
+                        </div>
+                        <!-- Tailwind CSS -->
+                        <div class="skill-card">
+                            <div class="skill-icon tailwind-icon">
+                                <svg viewBox="0 0 128 128" width="46" height="46" fill="currentColor">
+                                    <path d="M64 25.6c-21.3 0-34.7 10.7-40 32 8-10.7 17.3-14.7 28-12 6.1 1.5 10.4 6 15.3 10.9 7.9 8 17 17.3 36.7 17.3 21.3 0 34.7-10.7 40-32-8 10.7-17.3 14.7-28 12-6.1-1.5-10.4-6-15.3-10.9-7.9-8-17-17.3-36.7-17.3zM24 64c-21.3 0-34.7 10.7-40 32 8-10.7 17.3-14.7 28-12 6.1 1.5 10.4 6 15.3 10.9 7.9 8 17 17.3 36.7 17.3 21.3 0 34.7-10.7 40-32-8 10.7-17.3 14.7-28 12-6.1-1.5-10.4-6-15.3-10.9-7.9-8-17-17.3-36.7-17.3z"/>
+                                </svg>
+                            </div>
+                            <h4 class="skill-name">Tailwind CSS</h4>
+                        </div>
+                        <!-- Responsive Design -->
+                        <div class="skill-card">
+                            <div class="skill-icon responsive-icon">
+                                <i class="fas fa-mobile-screen-button"></i>
+                            </div>
+                            <h4 class="skill-name">Responsive Design</h4>
+                        </div>
+                        <!-- REST APIs -->
+                        <div class="skill-card">
+                            <div class="skill-icon api-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h4 class="skill-name">REST APIs</h4>
+                        </div>
+                        <!-- PostgreSQL -->
+                        <div class="skill-card">
+                            <div class="skill-icon postgres-icon">
+                                <svg viewBox="0 0 128 128" width="46" height="46" fill="currentColor">
+                                    <path d="M62.6 123.6c-1.4 0-2.8-.2-4.1-.7-10.8-3.9-14.6-17.8-16.7-25.2-.6-2.2-1.2-4.4-1.8-6.1-5.3-.6-11.4-1.9-17-4.7-8.1-4.1-13.7-10.6-16.1-18.7-2.6-8.7-1.1-18.8 4-26.8 5-7.7 13.1-12.9 22.4-14.1 1.7-.2 3.3-.3 4.9-.3 4.8 0 9.2.9 13.3 2.6.2-4.1.8-8.1 1.9-11.7C53.7 7 64.9.4 75.6.4c5.7 0 10.9 2 15.3 5.9 8.2 7.1 11.2 18.5 11.2 30.2 0 1.9-.1 3.9-.3 5.9 4.3 2.1 8 5.2 10.8 9.3 4.5 6.4 6.4 14.3 5.5 22.2-.9 8.2-5 15.5-11.4 20.3-4.5 3.4-10 5.3-16 5.7-.3 2.3-.9 5-1.7 7.9-2.3 8.1-6.7 23.4-18.4 25.4-2.6.3-5.2.4-8 .4z"/>
+                                </svg>
+                            </div>
+                            <h4 class="skill-name">PostgreSQL</h4>
+                        </div>
+                        <!-- Prisma ORM -->
+                        <div class="skill-card">
+                            <div class="skill-icon prisma-icon">
+                                <svg viewBox="0 0 24 24" width="44" height="44" fill="currentColor">
+                                    <path d="M22.565 18.067l-9.14-16.726a1.642 1.642 0 0 0-2.883 0L1.402 18.067a1.641 1.641 0 0 0 1.442 2.428h18.279a1.64 1.64 0 0 0 1.442-2.428zm-11.97-13.8a.409.409 0 0 1 .719 0l7.85 14.364H4.708z"/>
+                                </svg>
+                            </div>
+                            <h4 class="skill-name">Prisma ORM</h4>
+                        </div>
+                        <!-- Authentication & Authorization -->
+                        <div class="skill-card">
+                            <div class="skill-icon auth-icon">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <h4 class="skill-name">Authentication & Authorization</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-desktop"></i> My Services</h2>
+                
+                <div class="services-grid">
+                    <!-- Service 1: Web Development -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper web-dev-service">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">I can build a website by using HTML, CSS, and JavaScript</p>
+                    </div>
+                    
+                    <!-- Service 2: Responsive Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper responsive-service">
+                        <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">Responsive Design</h3>
+                        <p class="service-description">Your website will be 100% responsive for all devices: Tablets and Smart phones.</p>
+                    </div>
+                    
+                    <!-- Service 3: Creative Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper creative-service">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">Creative Design</h3>
+                        <p class="service-description">I can edit your current website by adding a new content to make it much better.</p>
+                    </div>
+                    
+                    <!-- Service 4: Web Ideas -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper ideas-service">
+                            <i class="far fa-lightbulb"></i>
+                        </div>
+                        <h3 class="service-title">Web Ideas</h3>
+                        <p class="service-description">I could turn your ideas into a real projects with high quality.</p>
+                    </div>
+                    
+                    <!-- Service 5: Retouch -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper retouch-service">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3 class="service-title">Retouch</h3>
+                        <p class="service-description">I can help you by redesigning your current website to look much better.</p>
+                    </div>
+                    
+                    <!-- Service 6: Support -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper support-service">
+                            <i class="far fa-comments"></i>
+                        </div>
+                        <h3 class="service-title">Support</h3>
+                        <p class="service-description">Support is available if you wanna make any changes for your website after delivering it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+         <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fa-solid fa-laptop-code"></i> My & <span class="text-highlight">Portfolio</span>
+                </h2>
+        
+                <div class="portfolio-grid">
+                    <!-- Project: Nexora SaaS Platform -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/saas_website.jpg" alt="Nexora Business Suite SaaS" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Nexora SaaS Platform</h3>
+                            <a href="https://saas-git-master-ahmaddef088-9264.vercel.app" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+
+                    <!-- Project: Nexora E-Commerce -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/nexora_ecommerce.jpg" alt="Nexora E-Commerce" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Nexora E-Commerce</h3>
+                            <a href="https://nexora-e-commerce-ylkn.vercel.app" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 1 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/food_website.jpg" alt="Food Website" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Food Website</h3>
+                            <a href="https://ahmaddef088-sys.github.io/food-website/" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+        
+                    <!-- Project 2 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/foot_lover.jpg" alt="Food Lover Restaurant" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Food Lover Restaurant</h3>
+                            <a href="https://ahmaddef088-sys.github.io/foot-lover-website/" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+        
+                    <!-- Project 3 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/netflix_website.jpg" alt="Netflix Clone" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Netflix Website</h3>
+                            <a href="file:///C:/Users/dell/Desktop/Nerflix%20website/Nerflix-website-main/index.html" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/coffee-hero-section.png" alt="Coffee Website" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Coffee Website</h3>
+                            <a href="https://ahmaddef088-sys.github.io/coffee-website/" target="_blank" rel="noopener"
+                                class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/ecommerce_website.jpg" alt="E-Commerce-Website" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">E-Commerce-Website</h3>
+                            <a href="https://ahmaddef088-sys.github.io/E-commerce-Website/" target="_blank" rel="noopener"
+                                class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+       
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section-v2">
+            <div class="container">
+                <div class="contact-v2-header">
+                    <span class="contact-v2-dot"></span>
+                    <h2 class="contact-v2-title">Contact</h2>
+                </div>
+                <p class="contact-v2-subtitle">Have a project in mind or just want to talk? I'm always open to a good conversation.</p>
+
+                <!-- Contact Info Cards -->
+                <div class="contact-v2-cards">
+                    <!-- Email Card -->
+                    <a href="mailto:ahmaddef088@gmail.com" class="contact-v2-card" id="contactEmailCard">
+                        <div class="contact-v2-card-icon email-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-v2-card-info">
+                            <span class="contact-v2-card-label">EMAIL</span>
+                            <span class="contact-v2-card-value">ahmaddef088@gmail.com</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-v2-card-arrow"></i>
+                    </a>
+
+                    <!-- GitHub Card -->
+                    <a href="https://github.com/ahmaddef088-sys/AHMED" target="_blank" rel="noopener" class="contact-v2-card" id="contactGithubCard">
+                        <div class="contact-v2-card-icon github-card-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-v2-card-info">
+                            <span class="contact-v2-card-label">GITHUB</span>
+                            <span class="contact-v2-card-value">github.com/ahmaddef088-sys</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-v2-card-arrow"></i>
+                    </a>
+
+                    <!-- Location Card -->
+                    <div class="contact-v2-card" id="contactLocationCard">
+                        <div class="contact-v2-card-icon location-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-v2-card-info">
+                            <span class="contact-v2-card-label">LOCATION</span>
+                            <span class="contact-v2-card-value">6 October - Egypt</span>
+                        </div>
+                        <i class="fas fa-arrow-right contact-v2-card-arrow"></i>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-v2-form-wrapper">
+                    <form class="contact-v2-form" id="contactForm">
+                        <div class="contact-v2-form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your name">
+                        </div>
+                        <div class="contact-v2-form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="you@example.com">
+                        </div>
+                        <div class="contact-v2-form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit" id="contactSubmitBtn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                        </button>
+                        <div class="form-status" id="formStatus" style="display:none;"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </main>
+
+
+
+
+       
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Ahmed Defallah. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
